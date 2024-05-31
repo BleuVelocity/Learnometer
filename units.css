@@ -1,49 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(270deg, #001a33, #00264d, #003366, #004080);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #00aaff;
     margin: 0;
     position: relative;
+    text-align: center;
 }
 
 #homeButton {
     position: absolute;
     top: 20px;
-    right: 10px;
-    padding: 10px 15px; /* Make the button thicker but narrower */
-    background-color: #4CAF50;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff4757;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
     transition: background-color 0.3s;
-    font-size: 14px; /* Adjust font size as needed */
 }
 
 #homeButton:hover {
-    background-color: #45a049;
+    background-color: #e04040;
 }
 
 .calculator {
     background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
     text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.calculator h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
 
 input[type="number"], select, button {
-    width: calc(100% - 20px); /* Ensure inputs are within the calculator border */
-    padding: 10px;
+    width: calc(100% - 40px);
+    padding: 15px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    box-sizing: border-box;
 }
 
 #unitsButton {
@@ -51,9 +59,24 @@ input[type="number"], select, button {
     color: white;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-button:hover {
+#unitsButton:hover {
     background-color: #45a049;
+}
+
+#unitsButton:active {
+    transform: scale(0.98);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
