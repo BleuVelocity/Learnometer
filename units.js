@@ -1,4 +1,4 @@
 
 function goHome() {
-    window.location.href = "mainPage.html";
+    window.location.href = "index.html";
 }
