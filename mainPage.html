@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="mainPage.css">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="units.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Learnometre</h1>
-        <p>This page has many resources, click the buttons below!!</p>
-        <button id="calculatorButton" onclick="goCalculator()">Calculator</button>
-        <br>
-        <button id="unitsButton" onclick="goUnits()">Unit Converter</button>
+    <button id="homeButton" onclick="goHome()">Home</button>
+    
+    <div class="calculator">
+        <h1>Unit Converter</h1>
+        <input type="number" id="inputBox" placeholder="Enter a number">
+        <select name="operation" id="operation">
+            <option value="Operation">--Operation--</option>
+            <option value="+">+</option>
+            <option value="-">-</option> 
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button id="unitsButton" onclick="saveAndProcess()">=</button>
     </div>
-    <script src="mainPage.js"></script>
+
+    <script src="units.js"></script>
 </body>
 </html>
