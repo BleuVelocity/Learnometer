@@ -15,3 +15,7 @@ function goAdminPage() {
 function goHome() {
     window.location.href = "index.html";
 }
+
+function goChatPage() {
+    window.location.href = "chat.html";
+}

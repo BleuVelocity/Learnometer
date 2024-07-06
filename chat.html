@@ -1,0 +1,34 @@
+<!-- chat.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <link rel="stylesheet" type="text/css" href="chat.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Additional styles specific to the chat page if needed */
+    </style>
+</head>
+<body>
+    <button id="homeButton" onclick="goHome()">Home</button>
+    <div class="container">
+        <h1>Chat Page</h1>
+        <!-- Optional: Add any additional content or instructions -->
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <div class="chat-messages" id="messages">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="chat.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
