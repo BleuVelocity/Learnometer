@@ -1,2 +1,3 @@
 function getSearch(){
-  var userSearch = 
+  var userSearch = document.getElementById("search_bar").value;
+  
