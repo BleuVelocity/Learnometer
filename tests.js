@@ -4,4 +4,5 @@ function print_User_Search(){
 }
 
 function goHome(){
-  window.setScreen(
+  window.location.href="index.html";
+}
