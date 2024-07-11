@@ -53,11 +53,15 @@ input[type="number"], select, button {
 }
 
 button {
-    background-color: #3b31ab;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #004aad;
     color: white;
     border: none;
+    border-radius: 15px; /* Reduced rounding for a more formal look */
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 button:hover {
