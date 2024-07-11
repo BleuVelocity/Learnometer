@@ -10,6 +10,13 @@ body {
     text-align: center;
 }
 
+#search_bar {
+    padding: 10px 10px;
+    border: none;
+    top: 100px;
+    left: 20px;
+    
+
 #homeButton {
     position: absolute;
     top: 20px;
