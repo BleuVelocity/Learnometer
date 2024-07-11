@@ -9,12 +9,12 @@ body {
     position: relative;
     text-align: center;
 }
-
 #search_bar {
     padding: 10px 10px;
     border: none;
     top: 100px;
     left: 20px;
+}
     
 
 #homeButton {
