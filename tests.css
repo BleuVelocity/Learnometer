@@ -28,6 +28,17 @@ body {
     background-color: #e04040;
 }
 
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 15px; /* Reduced rounding for a more formal look */
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    
 .calculator {
     background: #fff;
     padding: 30px;
