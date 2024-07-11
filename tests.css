@@ -17,6 +17,11 @@ body {
     border-radius: 20px;
 }
 
+#submit_Search {
+    width: 80px;
+    border: none;
+}
+
 button {
     padding: 10px 20px;
     margin: 10px 0;
