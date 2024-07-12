@@ -13,7 +13,7 @@ body {
     top: 10px;
     left: 20px;
     padding: 10px 20px;
-    background-color: #ff4757;
+    background-color: #42ca62;
     color: white;
     border: none;
     border-radius: 5px;
@@ -24,7 +24,7 @@ body {
 }
 
 #homeButton:hover {
-    background-color: #555050;
+    background-color: #24d147;
 }
 
 .calculator {
