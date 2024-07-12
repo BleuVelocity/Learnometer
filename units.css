@@ -24,8 +24,8 @@ button {
 
 #homeButton {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    left: 20px;
     padding: 10px 20px;
     background-color: #ff4757;
     color: white;
