@@ -59,13 +59,13 @@ input[type="string"], select, button {
     margin: 10px 0;
     background-color: #004aad;
     color: white;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     border: none;
     border-radius: 15px;
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
-    text-align: center; /* Center text */
+    text-align: center; 
 }
 
 .button-link:hover {
