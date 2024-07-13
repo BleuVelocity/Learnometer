@@ -7,10 +7,17 @@
     <link rel="stylesheet" type="text/css" href="mainPage.css">
 </head>
 <body>
-    <img src="Assessts/logo.jpg" alt="logo">
-    <br>
-    <br>
-    <br>
+    <script>
+        // Check if the user is logged in
+        const isLoggedIn = localStorage.getItem('isLoggedIn');
+
+        // If not logged in, redirect to login page
+        if (!isLoggedIn) {
+            window.location.href = 'login.html';
+        }
+    </script>
+    <img src="Assets/logo.jpg" alt="logo">
+    <br><br><br>
     <div class="container">
         <h1>Welcome to Learnometer</h1>
         <p>This page has many resources, click the buttons below!!</p>
@@ -20,7 +27,7 @@
         <br>
         <button id="unitsButton" onclick="goUnits()">Unit Converter</button>
         <br>
-        <button id = "tests_page" onclick="goTests()">Tests Page</button>
+        <button id="tests_page" onclick="goTests()">Tests Page</button>
     </div>
     <script src="mainPage.js"></script>
 </body>
